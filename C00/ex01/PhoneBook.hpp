@@ -3,16 +3,19 @@
 
 #include <string>
 #include "Contact.hpp"
+#include <iostream>
+#include <iomanip>
 
 class PhoneBook
 { 
     private:
         Contact contacts[8];
         int numContacts;
-        int ContactIndex;
+        int idxmax;
     public:
         void addContact();
         void searchContact();
+        PhoneBook();
 };
 
 
