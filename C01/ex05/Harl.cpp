@@ -16,17 +16,17 @@ void Harl::operatormsg(std::string level) {
 }
 
 void Harl::debug() {
-    std::cout << "DEBUG: Lets see what can i do"  << std::endl;
+    std::cout << "DEBUG: Lets see what can i do" << std::endl;
 }
 
 void Harl::info() {
-    std::cout << "INFO: Hi, the weather is nice, keep going"  << std::endl;
+    std::cout << "INFO: Hi, the weather is nice, keep going" << std::endl;
 }
 
 void Harl::warning() {
-    std::cout << "WARNING: Your computer is going to explode in 30 hours"  << std::endl;
+    std::cout << "WARNING: Your computer is going to explode in 30 hours" << std::endl;
 }
 
 void Harl::error() {
-    std::cout << "ERROR: Nothing is working, even me A3A3OJ_&/aE=?¿+ÇÇÇÇÇÇÇÇÇÇÇ"  << std::endl;
+    std::cout << "ERROR: Nothing is working, even me A3A3OJ_&/aE=?¿+ÇÇÇÇÇÇÇÇÇÇÇ" << std::endl;
 }
